@@ -1,8 +1,8 @@
-# History of (an) emoji
+# Open Source: Hands-on & Hacktoberfest
 
-A lightning talk presented at DevNQ.
+A live-coding workshop and talk presented at DevNQ.
 
-Slides PDF: <https://github.com/davidjb/2019-devnq-devs-alive/raw/master/slides-web.pdf>
+Slides PDF: <TBD>
 
 ## Setup
 
@@ -37,9 +37,3 @@ yarn optimise-pdf
 
 ## References
 
-* https://www.unicode.org/versions/Unicode7.0.0/
-* https://unicode.org/~asmus/web-wing-ding-ext.pdf
-* https://www.newsweek.com/2016/05/06/secret-ska-history-man-business-suit-levitating-emoji-442192.html
-* http://2-tone.info/articles/label.html
-* https://en.wikipedia.org/wiki/Peter_Tosh
-* https://en.m.wikipedia.org/wiki/Webdings

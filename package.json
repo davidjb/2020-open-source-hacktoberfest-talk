@@ -10,8 +10,8 @@
     "optimise-pdf": "gs -o slides-web.pdf -sDEVICE=pdfwrite -dDownsampleColorImages=true -dDownsampleGrayImages=true -dDownsampleMonoImages=true -dColorImageResolution=72 -dGrayImageResolution=72 -dMonoImageResolution=72 -dColorImageDownsampleThreshold=1.0 -dGrayImageDownsampleThreshold=1.0 -dMonoImageDownsampleThreshold=1.0 slides.pdf"
   },
   "dependencies": {
-    "decktape": "^2.9.3",
+    "decktape": "^3.1.0",
     "live-server": "^1.2.1",
-    "reveal.js": "^3.8.0"
+    "reveal.js": "^4.0.2"
   }
 }
