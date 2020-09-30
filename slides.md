@@ -379,12 +379,14 @@ Notes:
 
 ---
 
-### Questions?
+<!-- .slide: data-background="#363636" data-transition="fade" -->
+
+### Questions? <!-- .element: style="color: #fff" -->
 
 <br>
 
 # 👨‍💻
 
-David Beitey
+David Beitey <!-- .element: style="color: #fff" -->
 <br>
-https://github.com/davidjb
+https://github.com/davidjb <!-- .element: style="color: #fff; text-decoration: underline;" -->
