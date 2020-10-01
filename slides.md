@@ -1,11 +1,13 @@
 <!-- .slide: data-background="#363636" -->
-![title card](img/event.svg) <!-- .element class="plain stretch" style="width: 100%; height: 100%;" -->
+![title card](img/event.svg) <!-- .element class="plain" -->
+
+https://strawpoll.me/21028984
 
 ---
 
-What did the programmer say after being arrested
+What did the programmer say after being
 <br>
-for writing unreadable code?
+arrested for writing unreadable code?
 
 ---
 
@@ -14,7 +16,7 @@ for writing unreadable code?
 ---
 
 <!-- .slide: data-background="#363636" -->
-![title card](img/event.svg) <!-- .element class="plain stretch" style="width: 100%; height: 100%;" -->
+![title card](img/event.svg) <!-- .element class="plain" -->
 
 Notes:
 * OPEN source - what, why you'd contribute, what to expect
@@ -28,8 +30,8 @@ Notes:
 
 # 👨🏼‍💻
 ## David Beitey
-### (@davidjb / @davidjb_)
-## 🧢🎩👒 
+#### @davidjb / @davidjb_
+## 🧢🎩👒⛑🎓🕵🏻‍♂️
 
 Notes:
 * Wear lots of hats
@@ -62,7 +64,7 @@ Notes:
 ---
 
 <!-- .slide: data-background="#363636" -->
-![hacktoberfest logo](img/hf-logo-dark.svg) <!-- .element class="plain stretch" -->
+![hacktoberfest logo](img/hf-logo-dark.svg) <!-- .element class="plain" style="max-height: 80vh" -->
 
 Notes:
 * Could talk open source any time of the year, but now is a **really** special time
@@ -76,8 +78,8 @@ Notes:
 
 ---
 
-#### Sign up
-### hacktoberfest.digitalocean.com
+### Sign up
+#### [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com)
 
 Notes:
 * Must have a GitHub account, link to your Hacktoberfest account so your PRs can be tracked
@@ -89,29 +91,64 @@ Notes:
 
 ---
 
-### Pull Request #1:
+#### Pull Request #1:
 ## Documentation
 
-![kodi logo](img/Kodi-top-bottom.svg) <!-- .element class="plain" style="max-width: 200px;" -->
+![kodi logo](img/Kodi-top-bottom.svg) <!-- .element class="plain logo" -->
 
 https://github.com/kodi-pvr/pvr.iptvsimple
 
 Notes:
-* I've collated 4 projects (1 done already) to contribute to tonight & walk through the differences in projects
+* I've collated 4 projects to contribute to tonight & walk through the differences in projects
 
   * May be a little jumping around so stop me if go too quickly
   * Ask questions at any time
+
+* I use Kodi as a media player, found this add-on, read about it and its readme -- noticed the typo
+
+* Firstly going to check licensing to make sure I can contribute -- click `LICENSE.md` and show GH's UI
+
+  * Licenses govern what you & others can/can't do with code, particularly re-use, resale, modifications etc
+  * If there wasn't a licence, open an issue to nicely request/suggest one
+
+* Edit README.md on GitHub
+
+  * `Settingds` words - saw this, found others to improve
+  * Capital K for `kodi` - several spots
+  * Incorrect `it's` (4 of them?)
+  * `hexadeciaml genreId's` --> hexadecimal genre IDs
+  * `imortant` - important
+
+* Commit with a reasonable message - demo over 50 chars- and save
+* Check diff
+* PR:
+
+  * Explain what happens when I click the button; point of actual action being taken (issues/PR can be closed but not deleted by you)
+  * Create PR with basic description & done
+  * Now what?
+
+    * Me submitting this PR triggers an email to any maintainer watching this on GH
+    * Project decide to accept or respond to the PR on Github
+
+* Review:
+
+  * Tech side is easy - simple changes, one file; no real guidance but just follow existing style
+  * Social side is easy - no contributor docs (status quo), no wiki, nothing in readme, active/open PRs, has CI tests but only for the C code
+  * Could have start by opening an issue, but this is simple & doesn't really warannt discussion (people have debated its with me)
+  * PRs feature ability to conduct reviews, line-by-line comments and discussion about changes etc; threaded conversation
 
 ---
 
 ## Wait, what?
 
 Notes:
-* That was Open Source (software)! But what is it, really?
+* That was Open Source (software)!
+* We just offered a change to someone else's software!
+* But what is it, really?
 
 ---
 
-![osi logo](img/OSI_Standard_Logo_0.svg) <!-- .element class="plain" -->
+![osi logo](img/OSI_Standard_Logo_0.svg) <!-- .element class="plain stretch" style="max-width: 40vw;" -->
 
 Notes:
 * Open Source Initiative (OSI) defines it best: development based upon the sharing and collaborative improvement of software source code.
@@ -122,7 +159,7 @@ Notes:
 
 ---
 
-![open source logos](img/open-source-tree.png) <!-- .element class="plain stretch" -->
+![open source logos](img/open-source-tree.png) <!-- .element class="plain stretch" style="max-height: 60vh;" -->
 
 <small>
 Source: Himanshu Mishra, hackernoon.com
@@ -150,19 +187,26 @@ Notes:
 * For me, it's two fold:
 
   * My job: things I do for work - build my own software OR contribute to the community (the latter is typically easier)
+  * Got contacted by a guy in Europe offering to do work for free (he was
+    being paid by a University): https://github.com/nginx-shib/ - who would
+    say no to that offer??
   * My personal life: things I work on at home - Home Assistant automation
   * These PRs tonight are real things that matter to me
 
 ---
 
-![git hosters](img/git-hosters.jpg) <!-- .element class="plain stretch" -->
+![git hosters](img/git-hosters.jpg) <!-- .element class="plain stretch" style="max-height: 40vh;" -->
 
-* Terminology: pull request (PR)/merge request (MR)/patch
-* Forking 🍴
+* Terminology:
+  * Pull request (PR)
+  * Merge request (MR)
+  * Patch
+  * Forking 🍴
 
 Notes:
 * Haven't really needed to understand version control / Git so far, but you should learn
-* Know the difference between Git (the VCS) and the host (GH/GL/BB)
+  * Git isn't the only VCS out there; Hg, SVN
+* Know the difference between Git (the VCS) and the host (GH/GL/BB, etc)
 * Hosting platforms: GitHub, GitLab; BitBucket; sourceforge; self-hosted; etc
 
 * Terminology differs: fork; pull/merge request PR/MR; but they have similar
@@ -186,7 +230,7 @@ Notes:
 
 ---
 
-### Pull Request #2:
+#### Pull Request #2:
 ## Code examples
 
 # 👍
@@ -194,7 +238,8 @@ Notes:
 
 <br>
 
-https://github.com/streamich/react-use
+* https://github.com/streamich/react-use
+* https://reactjs.org/
 
 Notes:
 * React is a JS lib for building UI
@@ -209,39 +254,91 @@ Notes:
 * This doc is missing an import for `useBoolean` - if you run this, it won't work
 * Solution: import the useBoolean function. Even if you don't know JS/react, don't worry - you can tell what's happening here
 
+* So, let's fix it
+
+  * Where's the code?
+
+    * Web search to find the repository (not necessarily on GH!)
+    * Keen-eyed viewers will spot that github.io URL - https://github.com/streamich/react-use is the URL
+    * Once you have the repo, search for keywords ("useInterval") or browse.  YMMV
+    * Normally, I'd `git clone` the code now but I'll stay in browser for this PR
+
+  * CONTRIBUTING.md this time: commit message formatting
+  * Quick check of open PRs to avoid duplicates
+
+  * Good to go: make change, create PR with some explanation documentation and go!
+
+    * Folllow the template when there is one
+    * In this case, there are several boxes we can't tick but don't need to as
+      it's a documentation fix only. Some doco fixes _will_ be
+      linted/tested/etc but not for this project right now.
+    * If any CI builds or linting etc, follow their success and/or push fixes if they fail
+
 ---
 
-![legal and licensing](img/saul.jpg) <!-- .element class="plain" -->
+## Issue vs Pull Request?
+
+"Talk is cheap, show me the code"
+<br>
+Linus Torvalds
+<br>
+<br>
+https://lkml.org/lkml/2000/8/25/132
+
+Notes:
+* The first PR I did was simple enough not to need an issue report.
+* This second PR..same deal.  
+* Generally, if something is clear-cut and quick, PR. Otherwise, an issue report is a good place to start
+* Attitudes:
+
+  * "Talk is cheap, show me the code" Linus Torvalds attitude -- https://lkml.org/lkml/2000/8/25/132.
+  * In my experience, presenting a project with code is ore likely to be accepted.
+  * But, limit _your_ effort to avoid wasted time if it could be rejected.
+
+---
+
+<!-- .slide: data-background="#363636" data-transition="fade" -->
+
+## Intermission <!-- .element: style="color: #fff" -->
+
+### Questions / Say Hi <!-- .element: style="color: #fff" -->
+
+https://strawpoll.me/21028984
+
+Notes:
+* Intermission, take 10
+* Stretch your legs, grab a drink, ask questions or just say hi or introduce
+  yourself :)
+
+---
+
+![legal and licensing](img/saul.jpg) <!-- .element class="plain" style="max-height: 70vh;" -->
 
 https://choosealicense.com
 
 Notes:
-* Two sides to Open Source: there's the code and technical impelmentation, and there's the social side of things
+* Two sides to Open Source: there's the code and technical implementation, and there's the social side of things
 
   * Licensing - what to do. You're granting a licence to your work forever;
+    and you need a licence to use someone else's work.
 
+    * Similar to a MS Office licence, but this free (cost, as in beer)
     * Wording varies but ensure it's your code, you have the rights to licence
       it (check with your company/boss if working for a business)
-    * Consult legal help if unsure (this guy)
+    * Consult legal help if unsure (not *this* guy)
     * ChooseALicense page - see help link at bottom right
-
-* Etiquette - remember humans are that the end of the line. Do unto others.
-  Fun and games to earn a shirt, but you don't want to annoy/harass/waste
-  people's time.
-
-* Politics - it's Earth and people have different opinions. In the software
-  world, projects get forked or wrap up depending on priorities (OpenOffice vs
-  LibreOffice)
+    * If you come across a project without a licence (common for new projects
+      or new contributors), you'll need to ask nicely for them to add one
 
 ---
 
 ## $variables
 
 * Coding standards
-* Commit messages
-* Commit styles
+* Commit messages & styles
 * Build processes
 * Tests
+* Documentation
 * Licensing
 * Project styles
 * Community
@@ -252,8 +349,9 @@ Notes:
 * We've seen 2 different projects so far. You've seen variation
 * Coding standards: none, some, enforced
 * Commit messages: ad-hoc, de-facto structuring
-* Commit styles - generally squashed into one commit, one 'feature' or change per PR/MR
-* Build processes - none, ad-hoc, README, CONTRIBUTORs.md, website, forum, etc
+* Commit styles: squashed into one commit? one 'feature' or change per PR/MR?
+* Build processes - none, ad-hoc, CI, automated
+* Documentation: README, CONTRIBUTORS.md, issue templates, website, forums, etc
 * Tests - none, manual, some, everything
 * Licensing - none, suitable, unsuitable (no licence means your contributions are ambiguious and are not legally reusable)
 
@@ -264,23 +362,39 @@ Notes:
 
   * Acceptance/rejection of changes - avoiding hours & hours of work
 
+* Generally speaking, larger projects or projects with more users are more
+  complicated (Linux vs Firefox vs what you've seen so far)
+
 ---
 
-# 🌏🌎🌍
+# 🌏🌎🌍...🪐
 
 Notes:
-* It's just the world, everyone is different
+* It's just the world, everyone/everything is different
+
+* Politics - people will have different opinions. In the software
+  world, projects get forked or end depending on priorities (OpenOffice vs
+  LibreOffice)
+
+* Etiquette - remember humans are that the end of the line. Do unto others.
+  Fun and games to earn a shirt, but you don't want to annoy/harass/waste
+  people's time.
 
 ---
 
-### Pull Request #3:
+![office timeline](https://upload.wikimedia.org/wikipedia/commons/f/fb/StarOffice_major_derivatives.svg)
+
+Notes:
+* Etiquette - remember humans are that the end of the line. Do unto others.
+  Fun and games to earn a shirt, but you don't want to annoy/harass/waste
+  people's time.
+
+---
+
+#### Pull Request #3:
 ## Code fix
 
 ![home assistant logo](img/home-assistant-logo.svg) <!-- .element class="plain" style="max-width: 200px;" -->
-
-`Home Assistant`
-
-<br>
 
 * https://home-assistant.io
 * https://demo.home-assistant.io
@@ -295,16 +409,68 @@ Notes:
   * But the dashboard has a problem - on iOS embedded views, it won't zoom in because of the viewport meta tag
   * Hard to demo it here but just take my word for it
 
+* Solution:
+
+  * Where's the code?
+
+    * Using our skills of code hunting from before (literally down the bottom of the page): URL
+    * Your friends: grep, git grep, ack, ripgrep, ag, whatever.  I use ag personally - picked a tool, file type support, etc. grep is most commonly available so learn that first & then nerd out later.
+
+  * Full disclosure: I've opened this PR before at https://github.com/home-assistant/frontend/pull/6157
+
+    * Discussed and was closed because it went "stale" - further discussed and they agreed to reconsider it
+    * But let's go from scratch and give this a go:
+
+      * Readme --> Frontend development instructions, see links
+
+```sh
+git clone https://github.com/home-assistant/frontend.git
+cd frontend
+git checkout -b viewport-scaling
+ag user-scal
+vim src/html/_style_base.html.template
+
+\# Make edit
+
+\# Test, heavily simplified from HA's docs
+yarn
+yarn run
+yarn run lint:eslint
+
+\# I have manually tested this change against the latest release of HA
+https://httpstatusdogs.com/418-im-a-teapot
+
+\# Reuse commit message from previous PR; add mention to previous issue
+git commit -a
+
+\# Go to GitHub and fork the repo
+git remote add davidjb git@github.com:davidjb/frontend.git
+git push davidjb viewport-scaling
+```
+
+* Now visit the GH user interface to create the PR
+
+  * gh cli now exists for this too but it's only just out of beta
+
+* Issue/PR templates - read it carefully,
+
+  * Fill it out with descriptions copied info from 6157
+  * Do rest by hand
+
+* Project has a CLA that needs to be "signed" - I've already done this
+
+  * A more "formal" licensing process
+  * There's a bot for this that will prompt you when you open a PR
+  * Same goes for CI tests as well - these will all appear under the PR and generally they need to all pass ok
+
+* Take-away: code change is simple, but the process around its inclusion is more nuanced
+
 ---
 
-### Pull Request #4:
+#### Pull Request #4:
 ## New features
 
 ![react bootstrap logo](img/react-bootstrap-logo.svg) <!-- .element class="plain" style="max-width: 200px;" -->
-
-`react-bootstrap`
-
-<br>
 
 * https://react-bootstrap.github.io/
 * https://getbootstrap.com/ ⇛
@@ -316,9 +482,58 @@ Notes:
 
 * I use this a lot in building our UIs, like the WIP at https://research.jcu.io/
 * One thing I've noticed is that `<Button>` gets a default style - demo
-* But `<Alert>` and `<Badge>` don't - demo, they're white
-* This was suprising, meaning that Alert/Badge can't be used without explicitly stating a variant/style
-* Not a big deal, easy workaround, but a pitfall all the same
+* But `<Alert>` and `<Badge>` don't - demo, they're transparent
+* This was suprising: Alert/Badge cannot be used without _explicitly_ stating a variant/style
+* Not a big deal, easily worked-around -- but a pitfall all the same as the
+  docs don't _require_ a variant.
+
+* Solution?
+
+  * Make them like a `<Button>`!
+  * Read CONTRIBUTING.md doc quickly - "need a test"! and screenshot before/after
+  * **Could** be considered a breaking change, so this is a solid candidate for opening an issue to discuss.
+  * Process: as this is a more detailed change...
+
+    * Checking issue tracker / open PRs (yes, you could duplicate effort). Helps garner support for your issue/code being merged
+    * Analyse the project + determine activity + 'mergability' - doesn't technically matter for Hacktoberfest
+    * However, since the code change is quick and simple (plus it's a live demo and we don't have time to wait for a response!) I'll PR it
+
+  * Will add tests to this and ensure they work
+
+    * "Tests are a way of convincing others that your code maybe doesn’t suck" - Plone CMS project
+    * Still, follow the status quo and contributing docs. If there's no tests, adding initial ones is probably better done by the maintainer so ask them.
+
+```sh
+git clone git@github.com:davidjb/react-bootstrap.git
+cd react-bootstrap
+git remote add upstream https://github.com/react-bootstrap/react-bootstrap.git
+git fetch upstream
+git checkout -b default-variants upstream/master
+git cherry-pick --no-commit origin/alert-default-variant
+
+\# Run tests to ensure it works
+\# https://github.com/react-bootstrap/react-bootstrap\#local-setup
+yarn
+yarn run test
+yarn run test-browser
+
+\# If time, run Gatsby UI
+yarn run bootstrap
+yarn start
+
+\# Commit the results (watch for husky precommit checks!)
+git commit --reuse-message=origin/alert-default-variant --date="`date`"
+\# Review commit message
+git show --summary
+
+git push origin default-variants
+```
+
+* Take screenshot before (via website) and after (via Gatsby local) - use
+  `mockup.jsx` and its content
+* Head to GH website to make a PR
+
+  * No template this time, but a Contributing.md doc in the RHS
 
 ---
 
@@ -343,7 +558,7 @@ Notes:
 ---
 
 ## Get hacking!
-### hacktoberfest.digitalocean.com <!-- .element style="color: blue;" -->
+#### [hacktoberfest.digitalocean.com](https://hacktoberfest.digitalocean.com)
 
 Join `#hacktoberfest` on DevNQ Slack
 
@@ -352,18 +567,16 @@ Notes:
 * Must have a GitHub account, link to your Hacktoberfest account so your PRs can be tracked
 * You'll get an email on your first PR
 * And you'll get an email on your 4th!
-* Share your code any time of the year
-* Don't stop after October. Keep going!
 
 ---
 
 ## Finding issues
 
 * Look at software you use and what matters to _you_
-* Start <small>small</small>
+* Start <span style="font-size: 40%; vertical-align: middle;">small</span>
 * `Hacktoberfest` / `First Time` labels in repos
-* Project documentation and README files
-* DevNQ website has some first-time issues...
+* Project documentation and `README` files
+* [DevNQ website](https://github.com/devnq/devnq) has some first-time issues...
 
 Notes:
 * These examples found me - I spotted them when trying to follow documentation
@@ -371,11 +584,26 @@ Notes:
 * Start small - maybe don't go after a FF bug on your first go. Fix broken
   links, http --> https:// (security win!) and formatting/typos in projects
   are useful but easy to do
-* Many of my PRs are on documentation that have problems, outddated, wrong
-  steps, incomprehensible etc
 * Rules around acceptable changes (not spam, automated whitespace fixes etc)
 * Remeber humans are at the end of the line: do unto others respectfully, quality counts
+
+---
+
+## ...and beyond
+
+Share your fixes, experience & insight
+
+Notes:
 * Don't stop after October. Keep going!
+* Share your code any time of the year
+* If you've experienced a problem or solved an issue, don't keep it to yourself
+* Many of my PRs are on documentation that have problems, outddated, wrong
+  steps, incomprehensible. I solved my problem, why not help others?
+* Think about the long-term impact: a little improvement now, means
+  easier/better/faster for you and everyone later
+* A lot of the time I'm actually selfish, wanting software/libraries to work
+  and documentation to make sense. A new set of eyes always helps with install
+  instructions etc.
 
 ---
 
@@ -390,3 +618,16 @@ Notes:
 David Beitey <!-- .element: style="color: #fff" -->
 <br>
 https://github.com/davidjb <!-- .element: style="color: #fff; text-decoration: underline;" -->
+<br>
+@davidjb / @davidjb_
+<br>
+
+Notes:
+* Q: Did you hear about the programmer that was scared of IDEs?
+* A: They went back into their shell
+
+---
+
+https://github.com/wesbos/dad-jokes
+<br>
+https://github.com/EugeneKay/git-jokes
