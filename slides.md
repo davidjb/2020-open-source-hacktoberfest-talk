@@ -63,7 +63,7 @@ Notes:
 
 ---
 
-<!-- .slide: data-background="#363636" -->
+<!-- .slide: data-background="#072540" -->
 ![hacktoberfest logo](img/hf-logo-dark.svg) <!-- .element class="plain" style="max-height: 80vh" -->
 
 Notes:
