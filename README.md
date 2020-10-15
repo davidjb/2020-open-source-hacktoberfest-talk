@@ -14,7 +14,7 @@ yarn start
 This starts the presentation server at <http://localhost:8080> and
 automatically opens a browser.
 
-## Creating a PDF
+## Creating a PDF file
 
 ```bash
 yarn pdf
